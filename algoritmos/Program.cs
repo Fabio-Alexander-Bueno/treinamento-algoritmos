@@ -1,4 +1,4 @@
 ﻿using algoritmos.semana1;
 
 
-await BuscaLinear.Executar(10000);
+await BuscaLinear.Executar(100000);

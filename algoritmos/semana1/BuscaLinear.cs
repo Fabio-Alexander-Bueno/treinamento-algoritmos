@@ -14,11 +14,13 @@ namespace algoritmos.semana1
         public static int Executar<T>(IReadOnlyList<T> data, T target)
         {
             var index = -1;
+
             for (int i = 0; i < data.Count; i++)
             {
                 if (EqualityComparer<T>.Default.Equals(data[i], target))
-                    index =  i;
+                   return i;
             }
+
             return index;
         }
 
@@ -37,7 +39,6 @@ namespace algoritmos.semana1
         public static async Task Executar(int quantidade)
         {
             Console.WriteLine(BuscaLinear.MedirTempoExecucao(quantidade));
-
         }
     }
 }
