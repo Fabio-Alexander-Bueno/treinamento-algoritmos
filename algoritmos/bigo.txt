@@ -1,0 +1,8 @@
+| Operação | Exemplo | Big-O |
+
+
+| Acesso direto | `array[i]`     | **O(1)** |
+| Loop simples  | Somar n itens   | **O(n)** |
+| Busca binária | Array ordenado | **O(log n)** |
+| MergeSort     | Ordenar n itens    | **O(n log n)** |
+| Duplo loop    | Matriz n×n        | **O(n²)** |
