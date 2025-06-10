@@ -51,10 +51,9 @@ namespace algoritmos.semana1
         /// <summary>
         /// Facilitador assíncrono para rodar a medição em um ponto do programa.
         /// </summary>
-        public static async Task Executar(int quantidade)
+        public static  void Executar(int quantidade)
         {
             Console.WriteLine(BuscaBinaria.MedirTempoExecucao(quantidade));
-            await Task.Delay(500);
         }
     }
 }
